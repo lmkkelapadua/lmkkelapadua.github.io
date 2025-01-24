@@ -395,6 +395,18 @@ body {
   color: var(--primary);
 }
 
+.container .products-container .icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.container .products-container .product a {
+  color: #fff;
+}
+
 /* Preview Box */
 .products-preview {
   position: fixed;
@@ -445,7 +457,7 @@ body {
   right: 1.5rem;
   cursor: pointer;
   color: #444;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .products-preview .preview .fa-times:hover {
