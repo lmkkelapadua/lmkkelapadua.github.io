@@ -58,13 +58,6 @@ document.addEventListener('click', function (e) {
 //  e.preventDefault();
 //};
 
-// klik di luar modal
-//window.onclick = (e) => {
-//if (e.target === itemDetailModal) {
-//itemDetailModal.style.display = 'none';
-//  }
-//};
-
 let preveiwContainer = document.querySelector('.products-preview');
 let previewBox = preveiwContainer.querySelectorAll('.preview');
 
