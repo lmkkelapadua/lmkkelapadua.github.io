@@ -198,10 +198,6 @@ body {
   position: absolute;
   /* background: salmon; */
   inset: 0;
-  mask-image: url('../img/header-bg.svg');
-  mask-repeat: no-repeat;
-  mask-size: cover;
-  position: center;
 }
 
 .hero .content {
@@ -213,7 +209,7 @@ body {
 }
 
 .hero .content h1 {
-  font-size: 5rem;
+  font-size: 5em;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2;
@@ -235,13 +231,14 @@ body {
 .hero .content .cta {
   margin-top: 1rem;
   display: inline-block;
-  padding: 0.8rem 1.5rem;
-  font-size: 1rem;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
   color: #fff;
   background-color: var(--primary);
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
+
 /* Display utama end */
 
 /* Berita Utama */
@@ -497,7 +494,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   html {
     font-size: 55%;
   }
@@ -513,7 +510,7 @@ body {
   html {
     font-size: 50%;
   }
-}
+}*/
 
 /* Preview Box end */
 
@@ -612,7 +609,7 @@ footer .credit a {
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 758px) {
   html {
     font-size: 62.5%;
   }
@@ -702,7 +699,7 @@ footer .credit a {
   /* Mobile Phone */
   @media (max-width: 450px) {
     html {
-      font-size: 50%;
+      font-size: 55%;
     }
   }
 }
