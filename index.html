@@ -390,18 +390,18 @@
             loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
           </iframe>
     
-            <form action="">
+            <form name="lmkkelapadua-form">
               <div class="input-group">
                 <i data-feather="user"></i>
-                <input type="text" placeholder="Nama" />
+                <input type="text" placeholder="Nama" name="nama"/>
               </div>
               <div class="input-group">
                 <i data-feather="mail"></i>
-                <input type="text" placeholder="E-mail" />
+                <input type="text" placeholder="E-mail" name="email" />
               </div>
               <div class="input-group">
                 <i data-feather="message-square"></i>
-                <input type="text" placeholder="pesan" />
+                <input type="text" placeholder="pesan" name="pesan"/>
               </div>
               <button type="submit" class="btn">kirim pesan</button>
             </form>
@@ -440,8 +440,8 @@
     <!-- My Javascript -->
     <script src="js/script.js"></script>
     <script>
-      const scriptURL = '<https://script.google.com/macros/s/AKfycbwdcgSdu_ZvP0W92Byc1XBvPaYyG20LBkFJi67zAdb7zfhZmHgGIon_HcvlatjxX0kd/exec>'
-      const form = document.forms['berita-lMK-form']
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzAgrNVLCjCWmig6hfCPJMA4StZJiO41w5X-tEhIWqfP6UJnzq9daBOX0Vg_nkfuury6w/exec'
+      const form = document.forms['lmkkelapadua-form']
     
       form.addEventListener('submit', e => {
         e.preventDefault()
@@ -450,8 +450,11 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+    
+
+    </script>
         
   </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  </body>
+    </body>
 </html>
