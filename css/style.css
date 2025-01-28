@@ -250,7 +250,6 @@ body {
     font-size: 1.2rem; /* Adjusted for smaller screens */
   }
 }
-
 /* Display utama end */
 
 /* Berita Utama */
@@ -505,24 +504,6 @@ body {
   background: #444;
   color: #fff;
 }
-
-/*@media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-}
-
-@media (max-width: 768px) {
-  .products-preview .preview img {
-    height: 25rem;
-  }
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-}*/
 
 /* Preview Box end */
 
