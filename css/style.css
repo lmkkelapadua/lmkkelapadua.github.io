@@ -207,7 +207,7 @@ body {
   width: 100%;
   text-align: center;
   position: fixed;
-  top: 250px;
+  top: 300px;
 }
 
 .hero .content h1 {
@@ -257,7 +257,7 @@ body {
 .menu,
 .products,
 .contact {
-  padding: 8rem 7% 1.4rem;
+  padding: 8rem 7% 1.4rem; /* Judul */
 }
 
 .about h2,
@@ -651,7 +651,7 @@ footer .credit a {
   }
 
   .about .row .about-img img {
-    height: 20rem;
+    height: 30rem;
     object-fit: cover;
     object-position: center;
   }
@@ -696,6 +696,11 @@ footer .credit a {
     }
     .hero {
       background-size: cover; /* Ensured cover for mobile */
+      background-position: center;
+    }
+
+    .about {
+      background-size: cover;
       background-position: center;
     }
   }
