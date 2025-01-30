@@ -305,6 +305,79 @@ body {
   line-height: 1.3;
 }
 
+/* Slider */
+.images {
+  display: flex;
+  width: 100%;
+  transition: 2s;
+}
+
+.wrapper {
+  width: 100%;
+  margin: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.images .row {
+  display: flex;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+#slide-1:target ~ .images {
+  margin-left: 0px;
+}
+
+#slide-2:target ~ .images {
+  margin-left: -100%;
+}
+
+#slide-3:target ~ .images {
+  margin-left: -200%;
+}
+
+#slide-4:target ~ .images {
+  margin-left: -300%;
+}
+
+.navigation a {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #dedede;
+  font-size: 0px;
+  border-radius: 50%;
+  margin: 3px;
+  transition: 1s;
+}
+
+.navigation a:hover {
+  background-color: var(--primary);
+}
+
+.navigation {
+  position: absolute;
+  margin-left: flex;
+  margin-right: flex;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: -50px;
+}
+
+@media screen and (max-widh: 100%) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
 /* Menu Section */
 .menu h2,
 .products h2,
@@ -597,14 +670,14 @@ footer .credit a {
 /* Laptop */
 @media (max-width: 1366px) {
   html {
-    font-size: 75%;
+    font-size: 90%;
   }
 }
 
 /* Tablet */
 @media (max-width: 758px) {
   html {
-    font-size: 62.5%;
+    font-size: 88%;
   }
 
   #hamburger-menu {
@@ -651,7 +724,7 @@ footer .credit a {
   }
 
   .about .row .about-img img {
-    height: 30rem;
+    height: 45rem;
     object-fit: cover;
     object-position: center;
   }
@@ -696,11 +769,6 @@ footer .credit a {
     }
     .hero {
       background-size: cover; /* Ensured cover for mobile */
-      background-position: center;
-    }
-
-    .about {
-      background-size: cover;
       background-position: center;
     }
   }
