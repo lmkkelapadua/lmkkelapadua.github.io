@@ -165,7 +165,7 @@ body {
 }
 
 .archive .item-price {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .archive.active .remove-item {
@@ -233,10 +233,10 @@ body {
 .hero .content .cta {
   margin-top: 1rem;
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1.4rem;
   color: #fff;
-  background-color: var(--primary);
+  background-color: #a71616;
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
@@ -570,7 +570,7 @@ body {
 .products-preview .preview .buttons a {
   flex: 1 1 16rem;
   padding: 1rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #444;
   border: 0.1rem solid #444;
 }
