@@ -252,7 +252,7 @@ body {
 }
 /* Display utama end */
 
-/* Berita Utama */
+/* Berita Utama Star */
 .about,
 .menu,
 .products,
@@ -377,13 +377,15 @@ body {
     width: 90%;
   }
 }
+/* Berita utama end */
 
-/* Menu Section */
+/* Stuktur Organisasi */
 .menu h2,
 .products h2,
 .contact h2 {
   margin-bottom: 1rem;
 }
+
 .menu p,
 .products p,
 .contact p {
@@ -475,12 +477,17 @@ body {
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  width: 4rem;
-  height: 4rem;
 }
 
 .container .products-container .product a {
+  width: 4;
+  height: 4;
   color: #fff;
+  border-radius: 1px solid #666;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Preview Box */
