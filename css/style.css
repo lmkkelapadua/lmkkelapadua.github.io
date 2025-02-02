@@ -257,7 +257,7 @@ body {
 .menu,
 .products,
 .contact {
-  padding: 8rem 7% 1.4rem; /* Judul */
+  padding: 4rem 7% 1.4rem;
 }
 
 .about h2,
@@ -300,35 +300,56 @@ body {
 
 .about .row .content p {
   margin-bottom: 0.8rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 100;
-  line-height: 1.3;
+  line-height: 1.6;
 }
 
 /* Slider */
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
 .images {
   display: flex;
   width: 100%;
   transition: 2s;
 }
 
-.wrapper {
+.images img {
   width: 100%;
-  margin: flex;
+}
+
+.wrapper {
+  width: 687px;
+  flex: 1 1 45rem;
   overflow: hidden;
   position: relative;
-}
-
-.images .row {
-  display: flex;
-}
-
-.about .row .image {
-  flex: 1 1 45rem;
-}
-
-.about .row .image img {
-  width: 100%;
 }
 
 #slide-1:target ~ .images {
@@ -351,7 +372,7 @@ body {
   display: inline-block;
   height: 20px;
   width: 20px;
-  background-color: #dedede;
+  background-color: #fff;
   font-size: 0px;
   border-radius: 50%;
   margin: 3px;
@@ -364,19 +385,20 @@ body {
 
 .navigation {
   position: absolute;
-  margin-left: flex;
-  margin-right: flex;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
   margin-top: -50px;
 }
 
-@media screen and (max-widh: 100%) {
+@media screen and (max-widih: 687px) {
   .wrapper {
     width: 90%;
   }
 }
+
 /* Berita utama end */
 
 /* Stuktur Organisasi */
