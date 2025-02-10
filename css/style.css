@@ -45,7 +45,7 @@ body {
   z-index: 9999;
 }
 
-.navbar .navbar-logo {
+/*.navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
@@ -54,7 +54,7 @@ body {
 
 .navbar .navbar-logo span {
   color: var(--primary);
-}
+}*/
 
 .navbar .navbar-nav a {
   color: #fff;
